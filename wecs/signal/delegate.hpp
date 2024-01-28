@@ -23,6 +23,8 @@ class delegate<Ret(Args...)> final {
 public:
     using delegate_fn_type = Ret(const void*, Args...);
     using delegate_pointer_type = Ret (*)(const void*, Args...);
+    using fn_type = Ret(Args...);
+    using fn_pointer_type = Ret(Args...);
 
     delegate() = default;
 

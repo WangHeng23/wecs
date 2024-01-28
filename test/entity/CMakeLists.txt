@@ -1,3 +1,8 @@
 AddTest(sparse_set)
 AddTest(entity)
 AddTest(storage)
+AddTest(resource)
+AddTest(commands)
+AddTest(querier)
+AddTest(event_dispatcher)
+AddTest(registry)
